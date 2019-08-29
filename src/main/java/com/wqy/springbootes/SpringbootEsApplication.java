@@ -13,8 +13,4 @@ public class SpringbootEsApplication {
         SpringApplication.run(SpringbootEsApplication.class, args);
     }
 
-    @GetMapping("/hello")
-    public String hello(){
-        return "hello! wqy";
-    }
 }
