@@ -23,13 +23,13 @@
         <input id="cityCnName" th:value="${city.cnName}" hidden="hidden">
         <div class="r-hd2">
             <ol class="order-select">
-                <li class="s-default on" data-bind="lastUpdateTime" data-direction="desc">默认</li>
-                <li class="s-price s-asc" data-bind="price" data-direction="asc">租金低
+                <li class="s-default on" data-bind="lastUpdateTime" data-direction="DESC">默认</li>
+                <li class="s-price s-asc" data-bind="price" data-direction="ASC">租金低
                     <i class="asc">↑</i>
                 </li>
-                <li class="s-area s-asc" data-bind="area" data-direction="desc">面积大
+                <li class="s-area s-asc" data-bind="area" data-direction="DESC">面积大
                     <i class="asc">↓</i></li>
-                <li class="s-new" data-bind="createTime" data-direction="desc">最新</li>
+                <li class="s-new" data-bind="createTime" data-direction="DESC">最新</li>
             </ol>
         </div>
         <div class="r-hd3" style="display: block;">
@@ -87,7 +87,7 @@
     </div>
 </div>
 <!--<div th:include="common :: footer"></div>-->
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Oi2uijgpb8tILz7Ys9Q48KbmmfHDSpjK"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=xqnbpUjgM0TRPFvReftpOH07yj2kz4Gp"></script>
 <script type="text/javascript" src="/static/js/baidu-map/TextIconOverlay.js"></script>
 <script type="text/javascript" src="/static/js/baidu-map/MarkerClusterer.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>

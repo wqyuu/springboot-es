@@ -5,7 +5,7 @@ var regionCountMap = {}, // 地区数据
     labels = [], // 标签列表
     params = {
         orderBy: 'lastUpdateTime',
-        orderDirection: 'desc'
+        orderDirection: 'DESC'
     },
     customLayer; // 麻点图
 
@@ -141,7 +141,7 @@ function drawRegion(map, regionList) {
 
     if (!customLayer) {
         customLayer = new BMap.CustomLayer({
-            geotableId: 175730,
+            geotableId: 1000006426,
             q: '', // 检索关键字
             tags: '', // 空格分隔的字符串
             filter: '', // 过滤条件，参考：http://lbsyun.baidu.com/index.php?title=lbscloud/api/geosearch
